@@ -15,14 +15,108 @@
 
 \begin{center}
 			\centering
-			Actividad No. $(2)$\\
+			Actividad No. $(3)$\\
 			$2024$ Cálculo Vectorial.\\
 			Nombres:  Camilo Rivera, Emerson Tavera, Karen Torres
 \end{center}
 
 \begin{enumerate}
 
-\item[ 1]: 
+\item[ 1]: De la página 963 del libro que seguimos de Cálculo de Varias Variables de Stewart, entre el ejercicio 3 y el ejercicio 12, escoja y resuelva 5 ejercicios.\\
+
+\item[ a]: $f(x, y) = 3x + y; x^2 + y^2 = 10 $ \\
+
+$F(x, y) = 3x + y$ \\
+$G(x, y) = x^2 + y^2 - 10 $ \\
+
+$\nabla F <Fx, Fy> = <3,1>; \nabla G <Gx, Gy> = <2x,2y>$ \\
+$\nabla F = \lambda \nabla G$ \\
+
+$2 \lambda x = 3$ \\
+$2 \lambda y = 1$ \\
+$x^2 + y^2 = 10$\\
+
+$(i) x = - \dfrac{3}{2 \lambda} \qquad (ii) y = - \dfrac{1}{2 \lambda} \qquad (iii)  \left(- \dfrac{3}{2 \lambda}\right)^2 + \left(- \dfrac{1}{2 \lambda}\right)^2 = 10$\\
+
+$\left(- \dfrac{3}{2 \lambda}\right)^2 + \left(- \dfrac{1}{2 \lambda}\right)^2 = 10$\\
+
+$\frac{9}{4 \lambda ^2}+\frac{1}{4 \lambda ^2}=10$\\
+$\frac{9}{4\lambda^2} \cdot 4\lambda^2 + \frac{1}{4\lambda^2} \cdot 4\lambda^2 = 10 \cdot 4\lambda^2
+\qquad simplificando: 10 = 40 \lambda ^2$\\
+
+$ \lambda ^2 = \frac{1}{4}$\\
+$ \lambda = \sqrt{\frac{1}{4}},\: \lambda =-\sqrt{\frac{1}{4}}$\\
+$ \lambda = \frac{1}{2},\: \lambda =-\frac{1}{2}$\\
+
+$ Para: \lambda = \frac{1}{2}$\\
+$x = -\frac{3}{2\lambda} = -\frac{3}{2*\left(\frac{1}{2} \right)}  = -3 \qquad y = -\frac{1}{2\lambda} = -\frac{1}{2*\left( \frac{1}{2} \right)} = -1$\\
+
+$ Para: \: \lambda =-\frac{1}{2}$ \\
+$x = -\frac{3}{2\lambda} = -\frac{3}{2*\left(- \frac{1}{2} \right)}  = 3 \qquad y = -\frac{1}{2\lambda} = -\frac{1}{2*\left(- \frac{1}{2} \right)} = 1$\\
+
+\textbf{R// Puntos críticos: }
+$\left(-3,-1 \right) y \left(3,1 \right) \qquad  \lambda = -\frac{1}{2}; \frac{1}{2}$\\
+
+
+\item[ b]: $f(x, y) = x^2 + y^2; xy = 1 $ \\
+
+$F(x, y) = x^2 + y^2$ \\
+$G(x, y) = xy - 1$ \\
+
+$\frac{\partial \:}{\partial \:x}\left(x^2+y^2\right) = =\frac{\partial \:}{\partial \:x}\left(x^2\right)+\frac{\partial \:}{\partial \:x}\left(y^2\right) = 2x \qquad \frac{\partial \:}{\partial \:y}\left(x^2+y^2\right) =\frac{\partial \:}{\partial \:y}\left(x^2\right)+\frac{\partial \:}{\partial \:y}\left(y^2\right) = 2y$\\
+$\frac{\partial \:}{\partial \:x}\left(xy-1\right) =\frac{\partial \:}{\partial \:x}\left(xy\right)-\frac{\partial \:}{\partial \:x}\left(1\right) =y \qquad \frac{\partial \:}{\partial \:y}\left(xy-1\right) =\frac{\partial \:}{\partial \:y}\left(xy\right)-\frac{\partial \:}{\partial \:y}\left(1\right) = x$\\
+
+
+$\nabla F <Fx, Fy> = <2x,2y>; \nabla G <Gx, Gy> = <y,x>$ \\
+$\nabla F = \lambda \nabla G$ \\
+
+$2x + \lambda y = 0$\\
+$2y + \lambda x = 0$\\
+$xy - 1 = 0$\\
+
+$(i)\quad \lambda = -\frac{2x}{y} \qquad$\\
+$(ii)\quad 2y = -\frac{ \left(-\frac{2x}{y}\right) ^2 y}{2}} -\frac{2x^2}{y}$\\
+$2y^2 = - 2x^2$ \\
+$y = \pm x$\\
+
+$(iii)\quad xy = 1$\\
+$x\dfrac{1}{x} = 1$ se cumple sí $x \neq 0$
+
+$\lambda = -\frac{2\left(1\right)}{\left(1\right)} = -2$\\
+$\lambda = -\frac{2\left(-1\right)}{\left(-1\right)} = -2$\\
+
+\textbf{R// Puntos críticos: }
+$\left(1,1 \right) y \left(-1,-1 \right) \qquad  \lambda = -2$\\
+
+\item[ c]: $f\left(x,\:y\right)\:=\:e^{xy};\:x^3\:+\:y^3=16 $ \\
+
+$F(x, y) = e^{xy}$ \\
+$G(x, y) = x^3\:+\:y^3 - 16$ \\
+
+$\frac{\partial \:}{\partial \:x}\left(e^{xy}\right) =e^{xy}\frac{\partial \:}{\partial \:x}\left(xy\right) = e^{xy}y ;\: \qquad \frac{\partial \:}{\partial \:y}\left(e^{xy}\right) = e^{xy}\frac{\partial \:}{\partial \:y}\left(xy\right) = e^{xy}x ;\:$\\
+
+$ \frac{\partial \:}{\partial \:x}\left(x^3+y^3-16\right) = \frac{\partial \:}{\partial \:x}\left(x^3\right)+\frac{\partial \:}{\partial \:x}\left(y^3\right)-\frac{\partial \:}{\partial \:x}\left(16\right) = 3x^2 ;\: \qquad \frac{\partial \:}{\partial \:y}\left(x^3+y^3-16\right) =\frac{\partial \:}{\partial \:y}\left(x^3\right)+\frac{\partial \:}{\partial \:y}\left(y^3\right)-\frac{\partial \:}{\partial \:y}\left(16\right) = 3y^2 ;\:$\\
+
+
+$\nabla F <Fx, Fy> = <e^{xy}y,e^{xy}x>; \nabla G <Gx, Gy> = <3x^2,3y^2>$ \\
+$\nabla F = \lambda \nabla G$ \\
+
+$e^{xy}y = \lambda 3x^2$\\
+$e^{xy}x = \lambda 3y^2$\\
+$x^3\:+\:y^3 - 16 = 0$\\
+
+$(i)\quad \lambda = \dfrac{e^{xy}y}{3x^2} ;\quad \:x\ne \:0 \qquad (ii)\quad \lambda = \dfrac{e^{xy}x}{3y^2} ;\quad \:y\ne \:0 \rightarrow \qquad \dfrac{e^{xy}y}{3x^2} = \dfrac{e^{xy}x}{3y^2} = \lambda \rightarrow\qquad; \dfrac{y}{x^2} = \dfrac{x}{y^2}; \rightarrow\qquad y^3 = x^3; }$\\
+
+$(iii)\quad x^3\:+\:x^3 - 16 = 0 \rightarrow\qquad 2x^3 = 16 \rightarrow\qquad x^3 = 8 \rightarrow\qquad x = 2;$\\
+
+$(ii)\quad y^3 = (2)^3  \rightarrow\qquad   y^3 = 8 \rightarrow\qquad y = \sqrt[3]{8}=2  $\\
+
+$(i)\quad \lambda = \dfrac{e^{xy}y}{3x^2}  \rightarrow\qquad  \lambda = \frac{e^{2\left(2\right)}\cdot \:2}{3\left(2\right)^2}  \rightarrow\qquad \lambda = \frac{e^4}{6} = 9.0996$\\
+
+
+\textbf{R// Punto crítico: }
+$\left(2,2 \right) \qquad  \lambda = \frac{e^4}{6} = 9.0996$\\
+
 
 \end{enumerate}	
 
