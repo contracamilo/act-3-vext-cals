@@ -219,6 +219,96 @@ $= \frac{1}{\sqrt{2}} = \frac{\sqrt{2}}{2}.$\\
 (x, y, z) &= \left( \sqrt{\frac{12}{5}}, \sqrt{\frac{6}{5}}, -\sqrt{\frac{2}{5}} \right), & \lambda &= \frac{\sqrt{2}}{2}, \\
 (x, y, z) &= \left( -\sqrt{\frac{12}{5}}, \sqrt{\frac{6}{5}}, -\sqrt{\frac{2}{5}} \right), & \lambda &= \frac{\sqrt{2}}{2}, \\
 (x, y, z) &= \left( \sqrt{\frac{12}{5}}, -\sqrt{\frac{6}{5}}, \sqrt{\frac{2}{5}} \right), & \lambda &= \frac{\sqrt{2}}{2}.
+\end{align*}\\
+
+
+\item[ 2]: Encuentre por el método de los multiplicadores de Lagrange, los puntos críticos de las funciones sujetas a las restricciones indicadas:\\
+
+\item[ a]: $ f\left(x,y,z\right) = 2x^2+xy+y^2+z \qquad sujeto\:a \quad x+2y+4z=3 $ \\
+
+
+$L(x, y, z, \lambda) = 2x^2 + xy + y^2 + z - \lambda(x + 2y + 4z - 3)$\\
+
+$\frac{\partial L\:}{\partial \:x}\left(2x^2\right)+\frac{\partial \:}{\partial \:x}\left(xy\right)+\frac{\partial \:}{\partial \:x}\left(y^2\right)+\frac{\partial \:}{\partial \:x}\left(z\right)-\frac{\partial \:}{\partial \:x}\left(\lambda\left(x+2y+4z-3\right)\right)$\\
+$\frac{\partial L}{\partial x} = 4x+y+0+0-\lambda$\\
+$\frac{\partial L}{\partial x} = 4x + y - \lambda$\\
+
+$\frac{\partial L\:}{\partial \:y}\left(2x^2\right)+\frac{\partial \:}{\partial \:y}\left(xy\right)+\frac{\partial \:}{\partial \:y}\left(y^2\right)+\frac{\partial \:}{\partial \:y}\left(z\right)-\frac{\partial \:}{\partial \:y}\left(\lambda\left(x+2y+4z-3\right)\right)$\\
+$\frac{\partial L}{\partial y} = 0+x+2y+0-2\lambda$\\
+$\frac{\partial L}{\partial y} = x + 2y - 2\lambda$\\
+
+$\frac{\partial L\:}{\partial \:z}\left(2x^2\right)+\frac{\partial \:}{\partial \:z}\left(xy\right)+\frac{\partial \:}{\partial \:z}\left(y^2\right)+\frac{\partial \:}{\partial \:z}\left(z\right)-\frac{\partial \:}{\partial \:z}\left(\lambda\left(x+2y+4z-3\right)\right)$\\
+$\frac{\partial L}{\partial z} = 0+0+0+1-4\lambda$\\
+$\frac{\partial L}{\partial z} = 1 - 4\lambda$\\
+
+$\frac{\partial \:}{\partial \:λ}\left(2x^2\right)+\frac{\partial \:}{\partial \:λ}\left(xy\right)+\frac{\partial \:}{\partial \:λ}\left(y^2\right)+\frac{\partial \:}{\partial \:λ}\left(z\right)-\frac{\partial \:}{\partial \:\lambda}\left(\lambda\left(x+2y+4z-3\right)\right)$\\
+$\frac{\partial L}{\partial \lambda} = 0+0+0+0-\left(x+2y+4z-3\right)$\\
+$\frac{\partial L}{\partial \lambda} = x + 2y + 4z - 3 = 0$\\
+
+
+\begin{align*}
+4x + y - \lambda = 0 \quad (i) \\
+x + 2y - 2\lambda = 0 \quad (ii) \\
+1 - 4\lambda = 0 \quad (iii) \\
+x + 2y + 4z - 3 = 0 \quad (iv)
+\end{align*}
+
+
+(iii), \(1 - 4\lambda = 0\) \qquad \rightarrow  \qquad\(\lambda = \frac{1}{4}\).\\
+
+
+(i) y (ii), resolvemos para \(x\) y \(y\).\\
+
+$x = 0, \quad y = \frac{1}{4}$
+
+(iv) \(x = 0\), \(y = \frac{1}{4}\), y \(\lambda = \frac{1}{4}\) resolvemos \(z\):\\
+
+$z = \frac{5}{8}$\\
+
+\textbf{R// Puntos críticos: }\\
+\(x = 0\), \(y = \frac{1}{4}\), \(z = \frac{5}{8}\), y \(\lambda = \frac{1}{4}\)\\
+
+\item[ b]: $ f\left(x,y,z\right)=xyz^2 \qquad sujeto\:a \quad x-y+z=20 $ \\
+
+
+$L(x, y, z, \lambda) = xyz^2 - \lambda(x - y + z - 20)$\\
+
+
+$\frac{\partial L}{\partial x} = yz^2 - \lambda = 0 \quad$\\
+
+$\frac{\partial L}{\partial y} = xz^2 + \lambda = 0 \quad$\\
+
+$\frac{\partial L}{\partial z} = 2xyz - \lambda = 0 \quad$\\
+
+$\frac{\partial L}{\partial \lambda} = x - y + z - 20 = 0 \quad$\\
+
+
+\begin{align*}
+yz^2 - \lambda = 0 \quad \quad (i) \\
+xz^2 + \lambda = 0  \quad (ii) \\
+2xyz - \lambda = 0 \quad (iii) \\
+x - y + z - 20 = 0 \quad (iv)\\
+\end{align*}\\
+
+
+\textbf{para: $\lambda$ }\\
+$(i)  \quad \lambda = yz^2$ \\
+$(ii)  \quad \lambda = -xz^2$ \\
+$(iii)  \quad \lambda = 2xyz$ \\
+
+
+$yz^2 = -xz^2 \quad $ (i) \\
+$yz^2 = 2xyz \quad $ (ii) \\
+
+(iv):\\
+$x - y + z - 20 = 0 \quad $ (iii)\\
+
+\textbf{R//:} \text{Puntos críticos}:\\
+\begin{align*}
+(x, y, z) = (0, 0, 20) \\
+(x, y, z) = (5, -5, 10) \\
+(x, y, z) = (10, -10, 0) \\
+(x, y, z) = (y + 20, y, 0) \quad \text{para cualquier valor de } y
 \end{align*}
 
 
