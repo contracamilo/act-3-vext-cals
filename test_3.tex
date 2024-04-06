@@ -312,6 +312,78 @@ $x - y + z - 20 = 0 \quad $ (iii)\\
 \end{align*}
 
 
+\item[ 3]: Para surtir una orden de 200 unidades de su producto, una empresa desea distribuir la producción entre sus dos plantas, planta 1 y planta 2. La función de costo total está dada por.\\
+\begin{align*}
+    c(x, y) = 3x^2 +xy + 2y^2
+\end{align*}
+
+\textbf{Donde x y y son los numeros de unidades producidas en las plantas 1 y 2, respectivamente. ¿Cómo debe distribuirse la producción para minimizar los costos? }\\
+
+\textbf{Ahora debemos encontrar la restriccion la cual sera x + y = 200. Con la restriccion podemos crear la funcion xxxxx para derivarla respecto a cada una de las variables}
+
+
+\begin{align*}
+c(x, y, \lambda) &= 3x^2 + xy + 2y^2 - \lambda(x + y - 200)\\
+F(x) &= 6x + y - \lambda = 0\\
+F(y) &= x + 4y - \lambda = 0\\
+F(\lambda) &= -x - y + 200 = 0
+\end{align*}
+
+\textbf{Luego de obtener la derivada parcial respeto a cada variable, obtenemos un sistema de ecuaciones que al resolverlo nos dara el punto critico donde se minimiza la funcion de costo, para ello usaremos el metodo de suma y resta de funciones
+}
+
+
+\begin{align}
+6x + y - \lambda &= 0 \label{eq:first}\\
+-1(x + 4y - \lambda) &= (0) - 1 \label{eq:second}\\
+5(-x - y + 200) &= (0) 5 \label{eq:third}
+\end{align}
+
+\setcounter{equation}{0} % Reset the equation counter
+
+\begin{align}
+&6x + y - \lambda = 0 \label{eq:first} \\
+&-x - 4y + \lambda = 0 \label{eq:second} \\
+&\overline{5x - 3y = 0} \tag{4} \label{eq:fourth}
+\end{align}
+
+\setcounter{equation}{0} % Reset the equation counter
+
+
+\begin{align}
+&5x - 3y = 0 & \tag{4} \label{eq:fourth} \\
+&-5x - 5y = -1000 & \tag{3} \label{eq:third} \\ 
+&\overline{-8y = -1000}  \notag \\ \notag \\
+&y = \frac{-1000}{-8} & \notag \\
+&y = 125 & \notag \\  \notag
+\end{align}
+
+
+
+
+\textbf{Ya que hemos encontrado el valor de Y, ahora podemos sustuir en cualquiera de las ecuaciones para encontrar el valor de X}
+
+\begin{align*}
+-x - y + 200 &= 0 \tag{3} \label{eq:third} \\ 
+-x - (125) + 200 &=0\\
+-x + 75 & = 0\\
+x = 75
+\end{align*}
+
+\textbf{De esta forma tenemos que (75, 125) es el punto critico que optimiza la funcion mediante el metodo de multiplicadores de Lagrange, ahora ya podemos encontrar cuales son los costos totales minimos, solo debemos sustituir en la funcion original}
+
+
+\begin{equation*}
+c(75, 125) = 3(75)^2 + (75)(125) + 2(125)^2 = \textbf{{57500}}
+\end{equation*}
+
+\textbf{Podemos verificar esto al jugar un poco con los valores y notaremos que nos daran valores mas grandes como resultado, de esa forma nos aseguramos que el punto critico que obtuvimos es el punto donde los costos son los mas minimos.}
+
+\begin{equation*}
+c(74, 126) = 3(74)^2 + (75)(126) + 2(126)^2 = \textbf{{57504}}
+\end{equation*}
+
+
 
 \end{enumerate}	
 
